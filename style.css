@@ -62,3 +62,8 @@ input{
     height: 50px;
     width: 300px;
 }
+select{
+    height: 40px;
+    width: 200px;
+    margin-right: 0%;
+}
