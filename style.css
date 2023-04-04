@@ -1,0 +1,64 @@
+body{
+    margin:0;
+}
+
+section{
+    height: 100vh;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/20daee97-3054-4bd6-9088-13c2fefc1a54/KR-ko-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+section:before{
+    content:'';
+    background: linear-gradient(to right, black,transparent);
+    position:absolute;
+    left:0;
+    height: 100%;
+    width:50%;
+}
+
+h1{
+    color:white;
+    font-size: 3em;
+    position: absolute;
+    top: 50%;
+    left:40%;
+    font-family:sans-serif;
+    transform:translateX(-150px) translateY(-300px) translateZ(-450px);
+    text-align:center;
+}
+h2{
+    color:white;
+    font-size: 1.5em;
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    font-family:sans-serif;
+    text-align:center;
+    transform:translateX(-150px) translateY(-300px) translateZ(-450px);
+}
+div{
+    font-size: 3em;
+    position: absolute;
+    top: 80%;
+    left:40%;
+    font-family:sans-serif;
+    transform:translateX(-150px) translateY(-300px) translateZ(-450px);
+    text-align:center;
+}
+button{
+    background-color:red;
+    font-size: 3em;
+    position: absolute;
+    top: 81%;
+    left:65%;
+    font-family:sans-serif;
+    transform:translateX(-150px) translateY(-300px) translateZ(-450px);
+    text-align:center;
+    border:none;
+    color: white;
+    border-radius: 12px;
+}
+input{
+    height: 50px;
+    width: 300px;
+}
