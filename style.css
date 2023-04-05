@@ -10,7 +10,7 @@ section{
 section:before{
     content:'';
     background: linear-gradient(to right, black,transparent);
-    position:absolute;
+    position: absolute;
     left:0;
     height: 100%;
     width:50%;
@@ -18,23 +18,26 @@ section:before{
 
 h1{
     color:white;
-    font-size: 3em;
     position: absolute;
-    top: 70%;
-    left:40%;
+    top: 66%;
+    left:35%;
     font-family:sans-serif;
     transform:translateX(-150px) translateY(-300px) translateZ(-450px);
     text-align:center;
+    display: flex;
+    font-size: 4.5vmax;
 }
-h2{
+h4{
     color:white;
-    font-size: 1.5em;
     position: absolute;
     top: 80%;
-    left: 30%;
+    left: 27%;
     font-family:sans-serif;
     text-align:center;
+    display: flex;
     transform:translateX(-150px) translateY(-300px) translateZ(-450px);
+    font-size: 2vmax;
+    line-height: 100%;
 }
 div{
     font-size: 3em;
@@ -47,23 +50,39 @@ div{
 }
 button{
     background-color:red;
-    font-size: 3em;
+    font-size: 2em;
     position: absolute;
     top: 101%;
-    left:65%;
+    left:60%;
     font-family:sans-serif;
     transform:translateX(-150px) translateY(-300px) translateZ(-450px);
     text-align:center;
     border:none;
     color: white;
     border-radius: 12px;
+    margin:0 auto; 
+    width: 35%;
+    height: 8%;
+    max-width: 35%;
 }
-input{
-    height: 50px;
-    width: 300px;
+.item input{
+    width: 150%;
+    height: 105%;
+    max-width: 300%;
+    text-align:left;
 }
+
 select{
     height: 40px;
     width: 200px;
     margin-right: 0%;
 }
+.netflix{
+    float: left;
+    z-index: 1;
+    position:relative;
+    height: auto;
+    display: block;
+}
+
+
